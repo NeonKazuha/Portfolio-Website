@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "sanity/schemaTypes/blockContentType.js", "sanity/schemaTypes/pageInfo.js", "sanity/schemaTypes/project.js", "sanity/schemaTypes/postType.js", "sanity/env.js", "sanity/structure.js"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "sanity_project/schemaTypes/blockContentType.js", "sanity_project/schemaTypes/pageInfo.js", "sanity_project/schemaTypes/project.js", "sanity_project/schemaTypes/postType.js", "sanity_project/env.js", "sanity_project/structure.js"],
   "exclude": ["node_modules"]
 }

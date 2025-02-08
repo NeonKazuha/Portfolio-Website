@@ -9,12 +9,18 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sanity/icons": "^3.5.7",
+    "@sanity/image-url": "^1.1.0",
+    "@sanity/vision": "^3.74.1",
     "framer-motion": "^12.4.1",
     "next": "15.1.6",
+    "next-sanity": "^9.8.54",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-simple-typewriter": "^5.0.1",
     "react-social-icons": "^6.22.0",
+    "sanity": "^3.74.1",
+    "styled-components": "^6.1.15",
     "tailwind-scrollbar": "^2.1.0",
     "tailwind-scrollbar-hide": "^2.0.0"
   },

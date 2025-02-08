@@ -33,12 +33,17 @@ export default function Header({}: Props) {
                 bgColor='transparent'
             />
             <SocialIcon 
-                url="https://www.linkedin.com/in/tanmay-deshmukh-59a0b8275/" 
+                url="https://github.com/NeonKazuha" 
                 fgColor='gray'
                 bgColor='transparent'
             />
             <SocialIcon 
-                url="https://www.linkedin.com/in/tanmay-deshmukh-59a0b8275/" 
+                url="https://x.com/NeoKazuha" 
+                fgColor='gray'
+                bgColor='transparent'
+            />
+            <SocialIcon 
+                url="https://www.instagram.com/iamtanmaydeshmukh/" 
                 fgColor='gray'
                 bgColor='transparent'
             />

@@ -6,7 +6,7 @@ import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <div className="bg-[#ffffff] text-darkBlack h-screen snap-y snap-mandatory 
+    <div className="bg-[#1A1A1A] text-white h-screen snap-y snap-mandatory 
     overflow-y-scroll overflow-x-hidden z-0 scrollbar-thin scrollbar-track-gray-400/20 scrollbar-thumb-darkGreen/80">
         <Head>
           <title>Tanmay Deshmukh</title>

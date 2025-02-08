@@ -10,7 +10,7 @@ export default function Home() {
           <title>Tanmay Deshmukh</title>
         </Head>
 
-        <h1 className="text-red-500">My Portfolio</h1>
+      
 
         {/* Header */}
         <Header />

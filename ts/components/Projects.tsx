@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import React from "react";
-import { urlFor } from "../sanity_project";
+import { urlFor } from "../protfolio/sanity";
 import { Project } from "../typings";
 
 type Props = { projects: Project[] };

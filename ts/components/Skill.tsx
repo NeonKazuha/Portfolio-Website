@@ -2,8 +2,12 @@
 
 import React from "react";
 import { motion } from "framer-motion";
+import { Skill as mySkill } from "../typings";
+import { urlFor } from "../protfolio/sanity";
 
 type Props = {
+  skill: mySkill;
+  directionLeft?: boolean;
 };
 
 export default function Skill({}: Props) {

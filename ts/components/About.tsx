@@ -2,9 +2,11 @@
 
 import React from 'react'
 import { motion } from 'framer-motion'
-type Props = {}
+import { urlFor } from "../protfolio/sanity";
+import { PageInfo } from "../typings";
+type Props = { pageInfo: PageInfo };
 
-const About = (props: Props) => {
+export default function About({ pageInfo }: Props) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -30,7 +32,7 @@ const About = (props: Props) => {
         }}
         viewport={{ once: true }}
         className=" -mb-24 md:mb-0 flex-shrink-0 w-52 h-52 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[500px] xl:h-[600px]"
-        // src={urlFor(pageInfo?.profilePic).url()}
+        src={urlFor(pageInfo?.profilePic).url()}
       />
       <div className="space-y-5 md:space-y-10 px-0 md:px-10">
         <h4 className="text-xl md:text-4xl font-semibold">
@@ -39,11 +41,9 @@ const About = (props: Props) => {
           background
         </h4>
         <p className="text-sm md:text-lg lg:text-lg text-justify">
-          {/* {pageInfo?.backgroundInformation} */}
+          {pageInfo?.backgroundInformation}
         </p>
       </div>
     </motion.div>
-  )
+  );
 }
-
-export default About

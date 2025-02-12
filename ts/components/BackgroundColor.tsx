@@ -21,26 +21,26 @@ export default function BackgroundCircles({}: Props) {
     >
       <div
         className="absolute border border-gray-600 opacity-30 rounded-full 
-        h-[200px] w-[200px] mt-64 md:mt-52 animate-ping"
+        h-[200px] w-[200px] mt-80 md:mt-60 animate-ping"
       />
       <div />
       <div
         className="absolute border border-gray-600 opacity-30 rounded-full 
-        h-[300px] w-[300px] mt-64 md:mt:52 animate-ping"
+        h-[300px] w-[300px] mt-80 md:mt-60 animate-ping"
       />
       <div />
       <div
         className="absolute border border-gray-600  opacity-30 rounded-full 
-        h-[500px] w-[500px] mt-64 md:mt:52 animate-ping"
+        h-[500px] w-[500px] mt-80 md:mt-60 animate-ping"
       />
       <div />
       <div
         className="absolute border border-[#2F4F4F] opacity-20 
-        h-[510px] w-[510px] md:h-[650px] md:w-[650px] animate-pulse mt-64 md:mt-52 rounded-full"
+        h-[510px] w-[510px] md:h-[650px] md:w-[650px] animate-pulse mt-80 md:mt-60 rounded-full"
       />
       <div />
       <div
-        className="absolute border border-gray-600 opacity-30 rounded-full h-[800px] w-[800px] mt-64 md:mt:52 
+        className="absolute border border-gray-600 opacity-30 rounded-full h-[800px] w-[800px] mt-80 md:mt-60 
             animate-ping"
       />
       <div />

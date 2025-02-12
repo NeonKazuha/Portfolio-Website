@@ -8,13 +8,13 @@ import { urlFor } from "../protfolio/sanity";
 import { PageInfo } from '../typings';
 
 type Props = {
-  pageInfo: PageInfo;
+  pageInfo: PageInfo
 }
 
 export default function Hero({ pageInfo }: Props) {
     const [text, count] = useTypewriter({
         words: [
-            'Konichiwa!, Tanmay here', 
+            `Hi, the name's ${pageInfo?.name}`, 
             '!pip install brain', 
             'Les go Python!!!'
         ],

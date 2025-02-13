@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Head from "next/head";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
@@ -22,7 +21,7 @@ export default async function Home() {
   const experiences = await fetchExperiences();
   const skills = await fetchSkills();
   const projects = await fetchProjects();
-  const socials = await fetchSocials();
+  // const socials = await fetchSocials();
 
   return (
     <div className="bg-[#F8F9FA] text-darkblack h-screen snap-y snap-mandatory 

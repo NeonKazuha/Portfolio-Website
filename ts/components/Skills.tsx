@@ -24,7 +24,7 @@ export default function Skills({ skills }: Props) {
 
       {/* 3 Rows of 9 Skills */}
       <div className="grid grid-cols-9 gap-4 md:gap-5">
-        {skills?.map((skill, index) => (
+        {skills?.map((skill) => (
           <Skill key={skill._id} skill={skill} />
         ))}
       </div>

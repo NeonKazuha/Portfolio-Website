@@ -12,7 +12,7 @@ type Props = {
 }
 
 export default function Hero({ pageInfo }: Props) {
-    const [text, count] = useTypewriter({
+    const [text] = useTypewriter({
         words: [
             `Hi, the name's ${pageInfo?.name}`, 
             '!pip install brain', 

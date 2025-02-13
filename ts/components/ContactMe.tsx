@@ -3,7 +3,6 @@
 import React, { FormEvent, useState } from "react";
 import { PhoneIcon, MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid";
 
-type Props = {};
 
 type FormData = {
   name: string;
@@ -12,7 +11,7 @@ type FormData = {
   message: string;
 };
 
-export default function ContactMe({}: Props) {
+export default function ContactMe() {
   const [formData, setFormData] = useState<FormData>({
     name: '',
     email: '',
@@ -44,7 +43,7 @@ export default function ContactMe({}: Props) {
         {/* Heading */}
         <h4 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl font-semibold text-center">
           I have got just what you need.{" "}
-          <span className="decoration-teal-700 underline">Let's talk.</span>
+          <span className="decoration-teal-700 underline">Let&apos;s talk.</span>
         </h4>
 
         {/* Contact Info */}

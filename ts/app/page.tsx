@@ -13,7 +13,7 @@ import { fetchPageInfo } from "@/utils/fetchPageInfo";
 import { fetchExperiences } from "@/utils/fetchExperience";
 import { fetchProjects } from "@/utils/fetchProjects";
 import { fetchSkills } from "@/utils/fetchSkills";
-import { fetchSocials } from "@/utils/fetchSocials";
+// import { fetchSocials } from "@/utils/fetchSocials";
 
 export default async function Home() {
   // ✅ Fetch data before rendering JSX

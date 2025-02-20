@@ -12,11 +12,12 @@ type Props = {
 }
 
 export default function Hero({ pageInfo }: Props) {
-    const [text, count] = useTypewriter({
+// eslint-disable-next-line @typescript-eslint/no-unused-vars 
+    const [text, _unused] = useTypewriter({
         words: [
-            `Hi, the name's ${pageInfo?.name}`, 
-            '!pip install brain', 
-            'Les go Python!!!'
+          `Hi, the name's ${pageInfo?.name}`, 
+          '!pip install brain', 
+          'Les go Python!!!'
         ],
         loop: true,
         delaySpeed: 2000,

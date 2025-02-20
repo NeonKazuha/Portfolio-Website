@@ -14,5 +14,6 @@ export const dynamic = 'force-static'
 
 export { metadata, viewport } from 'next-sanity/studio'
 export default function StudioPage() {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   return <NextStudio config={config as any} />
 }

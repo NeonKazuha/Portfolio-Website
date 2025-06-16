@@ -30,4 +30,3 @@ export interface PageInfo {
     image: string;
     link: string;
   }
-  
